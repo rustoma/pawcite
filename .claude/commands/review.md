@@ -21,7 +21,7 @@ git fetch origin && git diff origin/main...HEAD
 5. **Style** — `python-style` / `mobile-style`.
 6. **Can I explain it** — flag anything clever, and ask me what the two most interesting lines do.
 
-Report grouped as **Blocker** / **Should fix** / **Consider**, most serious first, with file,
+Report grouped as **Must fix** / **Should fix** / **Consider**, most serious first, with file,
 line and the input that breaks it. Say plainly if it is clean — do not pad the list.
 
 Also run the checks and show me the real output:

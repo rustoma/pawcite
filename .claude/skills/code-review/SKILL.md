@@ -77,7 +77,7 @@ This repo has a second goal: the human must understand every line. So:
 Group by severity, most serious first, and be specific — file and line, what breaks, and the
 concrete input that breaks it:
 
-- **Blocker** — must change before merge (secret, safety, gateway, failing criterion).
+- **Must fix** — must change before merge (secret, safety, gateway, failing criterion).
 - **Should fix** — a real bug or a missing test, but not a merge stopper.
 - **Consider** — style, naming, a simpler shape. The human may decline these.
 

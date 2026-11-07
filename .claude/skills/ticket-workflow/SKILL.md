@@ -65,12 +65,14 @@ met, say which, why, and what you did instead — do not quietly drop it.
 
 ## 5. Pull request
 
+Commit in small, readable steps; the subject line is imperative and under 72 characters.
+
 ```bash
 git push -u origin app-013-hello-fastapi
-gh pr create --fill
+gh pr create --title "APP-013 · Hello FastAPI" --body "Closes #13 ..."
 ```
 
-The body must contain:
+The title carries the ticket id. The body must contain:
 
 - `Closes #13` (the issue number), so merging closes the issue and moves the board card.
 - The acceptance criteria as a checklist, ticked, with the evidence (command output, a screenshot
